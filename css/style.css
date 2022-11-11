@@ -1,6 +1,9 @@
 :root{
-  --primery-color:var(--primery-color)
-  --second-color:
+  --primery-header-color:#303030;
+  --second-header-color:#ffffff;
+  --primery-link-color:#ffffff;
+  --accent-color:#FF6C00;
+
   
 }
 .body{
@@ -21,18 +24,18 @@ font-weight: 600;
 font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.1em;
-color: #FFFFFF;
+color:var(--primery-link-color);
 }
 .header-link:hover,
 .header-link:focus{
-  color: #FF6C00;
+  color: var(--accent-color);
 }
 .header-tel{
 font-weight: 600;
 font-size: 12px;
 line-height: 1.33;
 letter-spacing: 0.1em;
-color: #FFFFFF;
+color:var(--primery-link-color);
 }
 .header-btn{
 font-family: inherit;
@@ -45,7 +48,7 @@ color: #FFFFFF;
 }
 .header-btn:hover,
 .header-btn:focus{
-  background-color: #FF6C00;
+  background-color: var(--accent-color);
 }
 /* ----------HERO--------- */
 
@@ -67,7 +70,7 @@ color: #FFFFFF;
  font-size: 72px;
  line-height: 1.18;
  letter-spacing: 0.05em;
- color: #FFFFFF;
+ color: var(--second-header-color);
 }
 .hero-text {
 font-size: 18px;
@@ -80,12 +83,12 @@ color: #9DA4BD;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.2em;
-  color: #303030;
+  color: var(--primery-header-color);
 
 }
 .hero-links:hover,
 .hero-links:focus{
-  color: #FF6C00;
+  color: var(--accent-color);
 }
 
 /* ----------ABOUT--------- */
@@ -129,7 +132,7 @@ color: #303030;
 }
 .about-btn:hover,
 .about-btn:focus{
-  background-color: #FF6C00;
+  background-color: var(--accent-color);
 }
 
 /* ----------ABOUT--------- */
